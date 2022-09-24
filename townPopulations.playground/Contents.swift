@@ -49,7 +49,7 @@ func addEntry(to key: String, town: String, population:Int,
  array for that key, then this function will remove the record for the specified
  town from the array for that key. If this results in an empty array for that key,
  then the function will remove the key from the dictionary. If there is no entry
- in the dictionary for the specified state, then print error: no entry for XXX in YYY.
+ in the dictionary for the specified state, then print error: no entry for X in Y.
  */
 func removeEntry(from key: String, town: String, in dict: inout [ String : [(String, Int)] ]) {
     //check if state exists
